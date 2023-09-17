@@ -20,7 +20,7 @@
 * Rota de Listagem de Um único produto
 
     ````
-http://localhost:3000/produtos/1 __ ou o valor unico de cada item __
+http://localhost:3000/produtos/1 __ou o valor unico de cada item__
     ````
 
     Exemplo:
@@ -48,12 +48,12 @@ http://localhost:3000/produtos/1 __ ou o valor unico de cada item __
         }
     ````
 
-__ obs: NÃO ESQUEÇA DE COLOCAR O Body COMO JSON __
+> obs: NÃO ESQUEÇA DE COLOCAR O Body COMO JSON
 
 * Rota de Deletar de um produto
 
     ````    
-        http://localhost:3000/produtos/1 __ ou o valor unico de cada item __
+http://localhost:3000/produtos/1 __ou o valor unico de cada item__
     ````
 
     Exemplo:
@@ -65,7 +65,7 @@ __ obs: NÃO ESQUEÇA DE COLOCAR O Body COMO JSON __
 * Rota de Mudar o valor de um produto
 
     ````
-        http://localhost:3000/produtos/1 __ ou o valor unico de cada item __
+http://localhost:3000/produtos/1 __ou o valor unico de cada item__
     ````
 
     Exemplo:
@@ -77,4 +77,4 @@ __ obs: NÃO ESQUEÇA DE COLOCAR O Body COMO JSON __
         }
     ````
 
-    __ obs: NÃO ESQUEÇA DE COLOCAR O Body COMO JSON __
+> obs: NÃO ESQUEÇA DE COLOCAR O Body COMO JSON
