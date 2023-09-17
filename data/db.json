@@ -1,0 +1,36 @@
+{
+  "produtos": [
+    {
+      "id": 1,
+      "nome": "Notebook",
+      "valor": 2000
+    },
+    {
+      "nome": "PS1",
+      "valor": 100,
+      "id": 2
+    },
+    {
+      "id": 3,
+      "nome": "Moletom",
+      "valor": 50
+    }
+  ],
+  "clientes": [
+    {
+      "id": 1,
+      "nome": "Edson",
+      "email": "edson@hotmail.com"
+    },
+    {
+      "id": 2,
+      "nome": "Valentina",
+      "email": "valentina@gmail.com"
+    },
+    {
+      "id": 3,
+      "nome": "Rodrigo",
+      "email": "rodrigo@gmail.com.br"
+    }
+  ]
+}
