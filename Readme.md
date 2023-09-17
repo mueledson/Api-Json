@@ -2,10 +2,15 @@
 ![Insomnia](https://img.shields.io/badge/Insomnia-black?style=for-the-badge&logo=insomnia&logoColor=5849BE)
 ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
 
-### Todos as Rotas
+* Esse projetinho faz parte de um curso lá da Udemy ![Udemy](https://img.shields.io/badge/Udemy-A435F0?style=for-the-badge&logo=Udemy&logoColor=white)
+
+*Aqui está o Link do curso para os interessados
+> : https://www.udemy.com/course/treina-dev-web-2023/learn/lecture/39781916#content
+
+## Todos as Rotas
  
 
-* Rota de Listagem de Todos os produtos
+### Rota de Listagem de Todos os produtos
 
         http://localhost:3000/produtos
 
@@ -16,7 +21,7 @@
                 "valor": 100
             }
 
-* Rota de Listagem de Um único produto
+### Rota de Listagem de Um único produto
 
     http://localhost:3000/produtos/1 __ou o valor unico de cada item__
 
@@ -28,7 +33,7 @@
             "valor": 100
         }
 
-* Rota de Cadastro de um produto 
+### Rota de Cadastro de um produto 
 
         http://localhost:3000/produtos
 
@@ -42,7 +47,7 @@
 
     > obs: NÃO ESQUEÇA DE COLOCAR O Body COMO JSON
 
-* Rota de Deletar de um produto
+### Rota de Deletar de um produto
 
     http://localhost:3000/produtos/1 __ou o valor unico de cada item__
 
@@ -50,7 +55,7 @@
 
         http://localhost:3000/produtos/4      
 
-* Rota de Mudar o valor de um produto
+### Rota de Mudar o valor de um produto
 
     http://localhost:3000/produtos/1 __ou o valor unico de cada item__
 
