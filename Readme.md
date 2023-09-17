@@ -1,80 +1,80 @@
 ## Como eu usei os endpoints
-    * Usei o Insomnia
+* Usei o Insomnia
 
 ### Todos as Rotas
-    * Rota de Listagem de Todos os produtos
+* Rota de Listagem de Todos os produtos
 
-        ````
-            http://localhost:3000/produtos
-        ````
+    ````
+        http://localhost:3000/produtos
+    ````
 
-        Exemplo:
+    Exemplo:
 
-        ````
-            {
-                "nome": "PS1",
-                "valor": 100
-            }
-        ````
+    ````
+        {
+            "nome": "PS1",
+            "valor": 100
+        }
+    ````
 
-    * Rota de Listagem de Um único produto
+* Rota de Listagem de Um único produto
 
-        ````
-            http://localhost:3000/produtos/1 __ ou o valor unico de cada item __
-        ````
+    ````
+        http://localhost:3000/produtos/1 __ ou o valor unico de cada item __
+    ````
 
-        Exemplo:
+    Exemplo:
 
-        ````
-            {
-                "nome": "PS1",
-                "valor": 100
-            }
-        ````
+    ````
+        {
+            "nome": "PS1",
+            "valor": 100
+        }
+    ````
 
-    * Rota de Cadastro de um produto 
+* Rota de Cadastro de um produto 
 
-        ````
-            http://localhost:3000/produtos
-        ````
+    ````
+        http://localhost:3000/produtos
+    ````
 
-        Exemplo:
+    Exemplo:
 
-        ````
-            {
-                "id": 4, 
-                "nome": "ps4",
-                "valor": "2000"
-            }
-        ````
+    ````
+        {
+            "id": 4, 
+            "nome": "ps4",
+            "valor": "2000"
+        }
+    ````
 
-        __ obs: NÃO ESQUEÇA DE COLOCAR O Body COMO JSON __
+    __ obs: NÃO ESQUEÇA DE COLOCAR O Body COMO JSON __
 
-    * Rota de Deletar de um produto
+* Rota de Deletar de um produto
 
-        ````    
-            http://localhost:3000/produtos/1 |__ ou o valor unico de cada item __
-        ````
+    ````    
+        http://localhost:3000/produtos/1 |__ ou o valor unico de cada item __
+    ````
 
-        Exemplo:
+    Exemplo:
 
-        ````
-            http://localhost:3000/produtos/4
-        ````        
+    ````
+        http://localhost:3000/produtos/4
+    ````        
 
-    * Rota de Mudar o valor de um produto
+* Rota de Mudar o valor de um produto
 
-        ````
-            http://localhost:3000/produtos/1 __ ou o valor unico de cada item __
-        ````
+    ````
+        http://localhost:3000/produtos/1 __ ou o valor unico de cada item __
+    ````
 
-        Exemplo:
+    Exemplo:
 
-        ````
-            {
-                "nome": "PS1",
-                "valor": 100
-            }
-        ````
+    ````
+        {
+            "nome": "PS1",
+            "valor": 100
+        }
+    ````
 
-        __ obs: NÃO ESQUEÇA DE COLOCAR O Body COMO JSON __
+    __ obs: NÃO ESQUEÇA DE COLOCAR O Body COMO JSON __
